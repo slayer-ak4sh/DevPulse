@@ -1,5 +1,5 @@
 name: github Actions
-on: [push, workflow_dispatch]
+on: [push, workflow_dispatch] #workflow_dispatch- Trigger that allow you to manallyy run a workflow.
 env: 
   AWS_REGION: us-east-1
   ECR_REPOSITORY: github-actions
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Code checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4 #It pre-built action used to clone your repository code into the workflow runner.
 
       - name: Set Java 11
         uses: actions/setup-java@v4
