@@ -1,4 +1,4 @@
-# Mastering CI/CD — VProfile Java Web Application
+# DevPulse
 
 A full-stack Java web application demonstrating a complete CI/CD pipeline using **GitHub Actions**, **SonarQube**, **Docker**, **Amazon ECR**, and **Amazon ECS (Fargate)**.
 
